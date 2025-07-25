@@ -1,36 +1,53 @@
-# 🖼️ Imagify - Image Upload Web App
+# 🖼️ Imagify – AI Image Generator Web App
 
-Imagify is a full-stack MERN (MongoDB, Express, React, Node.js) application that allows users to upload, view, and manage images with a modern UI and responsive design.
+**Imagify** is a full-stack **MERN** (MongoDB, Express.js, React.js, Node.js) application that allows users to securely generate, view, and manage AI-generated images using the **ClipDrop API**. It features a responsive modern UI, authentication, and a credit system.
 
-## 🚀 Live Demo
+
+##  Live Demo
 
 Link : https://imagify-nine-drab.vercel.app
 
-## ✨ Features
 
-- 📤 Upload images from local device
-- 📂 View uploaded images in a responsive gallery
-- 🗑️ Delete images
-- 🔐 (Optional) Authentication for secure uploads
-- 🌐 Hosted on Vercel (Frontend & Backend)
+##  Features
 
-## 🛠️ Tech Stack
+###  AI & User Functionality
+-  **AI Image Generation** using ClipDrop API
+-  **Credits System** to limit and track image generation
+-  **Regenerate images** with new prompts/styles
 
-**Frontend:**
-- React.js
-- Tailwind CSS (or any other styling you used)
-- Axios
+###  Authentication & Security
+-  **JWT Auth** for login and route protection
+-  **Protected API Routes** with middleware
+-  **User-specific credit management**
 
-**Backend:**
-- Node.js
-- Express.js
-- MongoDB with Mongoose
-- Cloudinary (for image storage) *(optional)*
-- Multer (for file uploads)
-- CORS, Dotenv
+###  Frontend (React + Vite + Tailwind)
+- **Modern Dark UI** using Tailwind CSS
+-  **Fully Responsive Design**
+-  **Fast Loading** with Vite
+-  **Toast Notifications** using `react-toastify`
+-  **Loading States** while generating images
+
+###  Backend (Express + MongoDB)
+-  **RESTful API Architecture**
+-  **MVC Structure**: Cleanly separated logic
+-  **MongoDB Integration** with Mongoose
+-  **Environment-based config** (`.env` support)
+- ⚙ **CORS-enabled** for frontend/backend interaction
+
+
+## 🛠 Tech Stack
+
+| Layer     | Tech                                 |
+|-----------|--------------------------------------|
+| Frontend  | React, Vite, Tailwind CSS            |
+| Backend   | Node.js, Express.js, MongoDB         |
+| APIs      | ClipDrop API, JWT                    |
+| Hosting   | Vercel (Frontend + Backend)          |
+
 
 ## 📁 Folder Structure
 
+```bash
 imagify/
 ├── client/ # React Frontend
 │ └── src/
@@ -39,9 +56,7 @@ imagify/
 │ └── controllers/
 │ └── models/
 
-bash
-Copy
-Edit
+```
 
 ## ⚙️ Setup Instructions
 
@@ -77,5 +92,5 @@ Frontend and backend deployed using Vercel
 
 Connect with me
 
-linkedin : 
-github : 
+linkedin : www.linkedin.com/in/kalyani-ekhande-31413a272
+github : https://github.com/kalyani090
