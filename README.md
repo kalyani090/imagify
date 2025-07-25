@@ -92,5 +92,5 @@ Frontend and backend deployed using Vercel
 
 Connect with me
 
-Linkedin : www.linkedin.com/in/kalyani-ekhande-31413a272
-Github : https://github.com/kalyani090
+-LinkedIn : www.linkedin.com/in/kalyani-ekhande-31413a272
+-Github : https://github.com/kalyani090
